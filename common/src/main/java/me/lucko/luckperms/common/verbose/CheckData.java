@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.verbose;
 
 import com.google.gson.JsonObject;
-
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.common.utils.StackTracePrinter;

@@ -32,9 +32,8 @@ import me.lucko.luckperms.common.actionlog.ExtendedLogEntry;
 import me.lucko.luckperms.common.api.delegates.model.ApiLog;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 
-import java.util.concurrent.CompletableFuture;
-
 import javax.annotation.Nonnull;
+import java.util.concurrent.CompletableFuture;
 
 public class ApiActionLogger implements ActionLogger {
     private final LuckPermsPlugin plugin;

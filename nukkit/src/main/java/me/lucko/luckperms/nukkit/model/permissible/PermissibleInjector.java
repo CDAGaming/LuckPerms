@@ -25,11 +25,10 @@
 
 package me.lucko.luckperms.nukkit.model.permissible;
 
-import me.lucko.luckperms.nukkit.model.dummy.DummyPermissibleBase;
-
 import cn.nukkit.Player;
 import cn.nukkit.permission.PermissibleBase;
 import cn.nukkit.permission.PermissionAttachment;
+import me.lucko.luckperms.nukkit.model.dummy.DummyPermissibleBase;
 
 import java.lang.reflect.Field;
 import java.util.Set;

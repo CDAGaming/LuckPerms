@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.assignments;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.api.StandardNodeEquality;
 import me.lucko.luckperms.api.Tristate;
@@ -34,11 +33,10 @@ import me.lucko.luckperms.common.model.PermissionHolder;
 import me.lucko.luckperms.common.node.LegacyNodeFactory;
 import me.lucko.luckperms.common.utils.Scripting;
 
+import javax.script.ScriptEngine;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-
-import javax.script.ScriptEngine;
 
 public class AssignmentExpression {
 

@@ -29,12 +29,10 @@ import com.github.benmanes.caffeine.cache.CacheLoader;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
 import com.google.common.collect.ImmutableMap;
-
 import me.lucko.luckperms.common.references.Identifiable;
 
-import java.util.Map;
-
 import javax.annotation.Nonnull;
+import java.util.Map;
 
 /**
  * An abstract manager class

@@ -25,9 +25,8 @@
 
 package me.lucko.luckperms.api;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 /**
  * A UUID cache for online users, between external Mojang UUIDs, and internal

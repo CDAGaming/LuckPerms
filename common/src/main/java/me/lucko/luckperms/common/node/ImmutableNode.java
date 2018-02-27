@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.node;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.api.StandardNodeEquality;
@@ -36,12 +35,11 @@ import me.lucko.luckperms.api.context.MutableContextSet;
 import me.lucko.luckperms.common.processors.WildcardProcessor;
 import me.lucko.luckperms.common.utils.DateUtil;
 
+import javax.annotation.Nonnull;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-
-import javax.annotation.Nonnull;
 
 import static com.google.common.base.Preconditions.checkState;
 

@@ -25,13 +25,12 @@
 
 package me.lucko.luckperms.nukkit.contexts;
 
+import cn.nukkit.Player;
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.contexts.AbstractContextManager;
 import me.lucko.luckperms.nukkit.LPNukkitPlugin;
-
-import cn.nukkit.Player;
 
 public class NukkitContextManager extends AbstractContextManager<Player> {
     public NukkitContextManager(LPNukkitPlugin plugin) {

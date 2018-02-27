@@ -30,7 +30,6 @@ import me.lucko.luckperms.common.commands.CommandManager;
 import me.lucko.luckperms.common.commands.CommandPermission;
 import me.lucko.luckperms.common.contexts.ContextManager;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
-
 import net.kyori.text.Component;
 
 import java.util.Optional;

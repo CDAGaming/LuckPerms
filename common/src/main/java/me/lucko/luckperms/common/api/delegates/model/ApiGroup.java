@@ -26,14 +26,12 @@
 package me.lucko.luckperms.common.api.delegates.model;
 
 import com.google.common.base.Preconditions;
-
 import me.lucko.luckperms.api.caching.GroupData;
 import me.lucko.luckperms.common.model.Group;
 
+import javax.annotation.Nonnull;
 import java.util.Objects;
 import java.util.OptionalInt;
-
-import javax.annotation.Nonnull;
 
 public final class ApiGroup extends ApiPermissionHolder implements me.lucko.luckperms.api.Group {
     public static Group cast(me.lucko.luckperms.api.Group group) {

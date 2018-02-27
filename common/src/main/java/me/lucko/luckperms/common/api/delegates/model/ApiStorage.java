@@ -25,28 +25,18 @@
 
 package me.lucko.luckperms.common.api.delegates.model;
 
-import me.lucko.luckperms.api.Group;
-import me.lucko.luckperms.api.HeldPermission;
-import me.lucko.luckperms.api.Log;
-import me.lucko.luckperms.api.LogEntry;
-import me.lucko.luckperms.api.Track;
-import me.lucko.luckperms.api.User;
+import me.lucko.luckperms.api.*;
 import me.lucko.luckperms.api.event.cause.CreationCause;
 import me.lucko.luckperms.api.event.cause.DeletionCause;
 import me.lucko.luckperms.common.node.NodeFactory;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.storage.Storage;
 
-import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
-import java.util.UUID;
+import javax.annotation.Nonnull;
+import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.function.Function;
-
-import javax.annotation.Nonnull;
 
 import static me.lucko.luckperms.common.api.ApiUtils.checkName;
 import static me.lucko.luckperms.common.api.ApiUtils.checkUsername;

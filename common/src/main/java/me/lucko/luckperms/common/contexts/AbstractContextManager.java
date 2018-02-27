@@ -29,7 +29,6 @@ import com.github.benmanes.caffeine.cache.CacheLoader;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.caching.MetaContexts;
 import me.lucko.luckperms.api.context.ContextCalculator;
@@ -39,6 +38,7 @@ import me.lucko.luckperms.api.context.StaticContextCalculator;
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 
+import javax.annotation.Nonnull;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -46,8 +46,6 @@ import java.util.Set;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-
-import javax.annotation.Nonnull;
 
 /**
  * An abstract implementation of {@link ContextManager} which caches content lookups.

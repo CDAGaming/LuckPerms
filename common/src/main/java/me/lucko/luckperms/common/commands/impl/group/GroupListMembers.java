@@ -28,7 +28,6 @@ package me.lucko.luckperms.common.commands.impl.group;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
 import com.google.common.collect.Maps;
-
 import me.lucko.luckperms.api.HeldPermission;
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.common.commands.ArgumentPermissions;
@@ -49,7 +48,6 @@ import me.lucko.luckperms.common.references.HolderType;
 import me.lucko.luckperms.common.utils.DateUtil;
 import me.lucko.luckperms.common.utils.Predicates;
 import me.lucko.luckperms.common.utils.TextUtils;
-
 import net.kyori.text.BuildableComponent;
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.ClickEvent;

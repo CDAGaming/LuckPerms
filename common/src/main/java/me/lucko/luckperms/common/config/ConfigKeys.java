@@ -27,16 +27,9 @@ package me.lucko.luckperms.common.config;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
-
 import me.lucko.luckperms.api.metastacking.MetaStackDefinition;
 import me.lucko.luckperms.common.assignments.AssignmentRule;
-import me.lucko.luckperms.common.config.keys.AbstractKey;
-import me.lucko.luckperms.common.config.keys.BooleanKey;
-import me.lucko.luckperms.common.config.keys.EnduringKey;
-import me.lucko.luckperms.common.config.keys.IntegerKey;
-import me.lucko.luckperms.common.config.keys.LowercaseStringKey;
-import me.lucko.luckperms.common.config.keys.MapKey;
-import me.lucko.luckperms.common.config.keys.StringKey;
+import me.lucko.luckperms.common.config.keys.*;
 import me.lucko.luckperms.common.graph.TraversalAlgorithm;
 import me.lucko.luckperms.common.metastacking.SimpleMetaStackDefinition;
 import me.lucko.luckperms.common.metastacking.StandardStackElements;
@@ -52,11 +45,7 @@ import me.lucko.luckperms.common.utils.ImmutableCollectors;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
-import java.util.ArrayList;
-import java.util.EnumMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 
 /**

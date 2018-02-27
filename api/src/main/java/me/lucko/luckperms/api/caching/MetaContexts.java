@@ -28,10 +28,9 @@ package me.lucko.luckperms.api.caching;
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.metastacking.MetaStackDefinition;
 
-import java.util.Objects;
-
 import javax.annotation.Nonnull;
 import javax.annotation.concurrent.Immutable;
+import java.util.Objects;
 
 /**
  * Encapsulates the options and settings for a meta lookup.

@@ -25,18 +25,8 @@
 
 package me.lucko.luckperms.common.api.delegates.model;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.ImmutableSetMultimap;
-import com.google.common.collect.ImmutableSortedSet;
-
-import me.lucko.luckperms.api.Contexts;
-import me.lucko.luckperms.api.DataMutateResult;
-import me.lucko.luckperms.api.LocalizedNode;
-import me.lucko.luckperms.api.Node;
-import me.lucko.luckperms.api.NodeEqualityPredicate;
-import me.lucko.luckperms.api.Tristate;
+import com.google.common.collect.*;
+import me.lucko.luckperms.api.*;
 import me.lucko.luckperms.api.caching.CachedData;
 import me.lucko.luckperms.api.context.ContextSet;
 import me.lucko.luckperms.api.context.ImmutableContextSet;
@@ -47,15 +37,10 @@ import me.lucko.luckperms.common.model.User;
 import me.lucko.luckperms.common.node.MetaType;
 import me.lucko.luckperms.common.utils.ImmutableCollectors;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
-import java.util.SortedSet;
+import javax.annotation.Nonnull;
+import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Predicate;
-
-import javax.annotation.Nonnull;
 
 public class ApiPermissionHolder implements me.lucko.luckperms.api.PermissionHolder {
     private final PermissionHolder handle;

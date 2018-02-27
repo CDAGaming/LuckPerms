@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.api.delegates.misc;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.metastacking.MetaStackDefinition;
 import me.lucko.luckperms.api.metastacking.MetaStackElement;
 import me.lucko.luckperms.api.metastacking.MetaStackFactory;
@@ -34,11 +33,10 @@ import me.lucko.luckperms.common.metastacking.SimpleMetaStackDefinition;
 import me.lucko.luckperms.common.metastacking.StandardStackElements;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 
+import javax.annotation.Nonnull;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
-
-import javax.annotation.Nonnull;
 
 public class ApiMetaStackFactory implements MetaStackFactory {
     public final LuckPermsPlugin plugin;

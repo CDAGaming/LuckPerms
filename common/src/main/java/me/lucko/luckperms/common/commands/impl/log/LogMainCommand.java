@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.log;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.common.actionlog.Log;
 import me.lucko.luckperms.common.commands.abstraction.Command;
 import me.lucko.luckperms.common.commands.abstraction.MainCommand;

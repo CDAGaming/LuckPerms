@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.node;
 
 import com.google.common.base.Splitter;
-
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.common.utils.PatternCache;
 

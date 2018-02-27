@@ -28,7 +28,6 @@ package me.lucko.luckperms.common.caching;
 import com.github.benmanes.caffeine.cache.CacheLoader;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
-
 import me.lucko.luckperms.api.ChatMetaType;
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.caching.CachedData;
@@ -40,13 +39,12 @@ import me.lucko.luckperms.common.calculators.PermissionCalculatorMetadata;
 import me.lucko.luckperms.common.metastacking.SimpleMetaStack;
 import me.lucko.luckperms.common.model.PermissionHolder;
 
+import javax.annotation.Nonnull;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
-
-import javax.annotation.Nonnull;
 
 /**
  * Holds an easily accessible cache of a holders data in a number of contexts

@@ -27,9 +27,8 @@ package me.lucko.luckperms.api.caching;
 
 import me.lucko.luckperms.api.Tristate;
 
-import java.util.Map;
-
 import javax.annotation.Nonnull;
+import java.util.Map;
 
 /**
  * Holds cached permission lookup data for a specific set of contexts.

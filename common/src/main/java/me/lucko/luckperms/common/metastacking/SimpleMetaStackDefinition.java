@@ -26,14 +26,12 @@
 package me.lucko.luckperms.common.metastacking;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.metastacking.MetaStackDefinition;
 import me.lucko.luckperms.api.metastacking.MetaStackElement;
 
+import javax.annotation.Nonnull;
 import java.util.List;
 import java.util.Objects;
-
-import javax.annotation.Nonnull;
 
 public final class SimpleMetaStackDefinition implements MetaStackDefinition {
 

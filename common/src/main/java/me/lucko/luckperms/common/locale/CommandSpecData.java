@@ -25,10 +25,9 @@
 
 package me.lucko.luckperms.common.locale;
 
+import javax.annotation.Nonnull;
 import java.util.Map;
 import java.util.Objects;
-
-import javax.annotation.Nonnull;
 
 /**
  * The localized data for a {@link CommandSpec}.

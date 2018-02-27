@@ -27,12 +27,7 @@ package me.lucko.luckperms.common.commands;
 
 import me.lucko.luckperms.common.commands.sender.Sender;
 
-import static me.lucko.luckperms.common.commands.CommandPermission.Type.GROUP;
-import static me.lucko.luckperms.common.commands.CommandPermission.Type.LOG;
-import static me.lucko.luckperms.common.commands.CommandPermission.Type.NONE;
-import static me.lucko.luckperms.common.commands.CommandPermission.Type.SPONGE;
-import static me.lucko.luckperms.common.commands.CommandPermission.Type.TRACK;
-import static me.lucko.luckperms.common.commands.CommandPermission.Type.USER;
+import static me.lucko.luckperms.common.commands.CommandPermission.Type.*;
 
 /**
  * An enumeration of the permissions required to execute built in LuckPerms commands.

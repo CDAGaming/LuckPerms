@@ -25,11 +25,10 @@
 
 package me.lucko.luckperms.api;
 
+import javax.annotation.Nonnull;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
-
-import javax.annotation.Nonnull;
 
 /**
  * Represents a type of chat meta

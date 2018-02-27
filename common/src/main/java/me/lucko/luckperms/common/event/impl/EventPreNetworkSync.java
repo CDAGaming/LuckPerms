@@ -28,10 +28,9 @@ package me.lucko.luckperms.common.event.impl;
 import me.lucko.luckperms.api.event.sync.PreNetworkSyncEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
+import javax.annotation.Nonnull;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-import javax.annotation.Nonnull;
 
 public class EventPreNetworkSync extends AbstractEvent implements PreNetworkSyncEvent {
 

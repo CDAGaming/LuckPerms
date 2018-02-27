@@ -28,9 +28,8 @@ package me.lucko.luckperms.api.context;
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.User;
 
-import java.util.Optional;
-
 import javax.annotation.Nonnull;
+import java.util.Optional;
 
 /**
  * Manages {@link ContextCalculator}s, and calculates applicable contexts for a

@@ -32,12 +32,11 @@ import me.lucko.luckperms.common.model.Track;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.ImmutableCollectors;
 
+import javax.annotation.Nonnull;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
-
-import javax.annotation.Nonnull;
 
 /**
  * Contains the standard {@link MetaStackElement}s provided by LuckPerms.

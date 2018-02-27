@@ -28,9 +28,8 @@ package me.lucko.luckperms.api.event.sync;
 import me.lucko.luckperms.api.event.Cancellable;
 import me.lucko.luckperms.api.event.LuckPermsEvent;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 /**
  * Called before a received network sync task runs

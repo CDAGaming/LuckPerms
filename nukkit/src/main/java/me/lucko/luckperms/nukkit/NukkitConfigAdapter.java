@@ -25,19 +25,14 @@
 
 package me.lucko.luckperms.nukkit;
 
+import cn.nukkit.utils.Config;
+import cn.nukkit.utils.ConfigSection;
 import me.lucko.luckperms.common.config.adapter.AbstractConfigurationAdapter;
 import me.lucko.luckperms.common.config.adapter.ConfigurationAdapter;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 
-import cn.nukkit.utils.Config;
-import cn.nukkit.utils.ConfigSection;
-
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class NukkitConfigAdapter extends AbstractConfigurationAdapter implements ConfigurationAdapter {
 

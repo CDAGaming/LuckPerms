@@ -27,23 +27,15 @@ package me.lucko.luckperms.bukkit.model.server;
 
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
-
 import me.lucko.luckperms.bukkit.LPBukkitPlugin;
 import me.lucko.luckperms.common.utils.ImmutableCollectors;
-
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.Permissible;
 import org.bukkit.plugin.PluginManager;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
-import java.util.WeakHashMap;
-import java.util.stream.Collectors;
-
 import javax.annotation.Nonnull;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * A replacement map for the 'permSubs' instance in Bukkit's SimplePluginManager.

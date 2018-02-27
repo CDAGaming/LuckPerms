@@ -29,12 +29,11 @@ package me.lucko.luckperms.common.api.delegates.model;
 import me.lucko.luckperms.api.LogEntry;
 import me.lucko.luckperms.common.actionlog.Log;
 
+import javax.annotation.Nonnull;
 import java.util.Objects;
 import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.UUID;
-
-import javax.annotation.Nonnull;
 
 import static me.lucko.luckperms.common.api.ApiUtils.checkName;
 

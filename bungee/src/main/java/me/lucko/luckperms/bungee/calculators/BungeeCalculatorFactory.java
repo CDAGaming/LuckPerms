@@ -26,7 +26,6 @@
 package me.lucko.luckperms.bungee.calculators;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.bungee.LPBungeePlugin;
 import me.lucko.luckperms.common.calculators.AbstractCalculatorFactory;

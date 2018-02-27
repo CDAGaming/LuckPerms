@@ -28,9 +28,8 @@ package me.lucko.luckperms.api.event.track.mutate;
 import me.lucko.luckperms.api.Track;
 import me.lucko.luckperms.api.event.LuckPermsEvent;
 
-import java.util.List;
-
 import javax.annotation.Nonnull;
+import java.util.List;
 
 /**
  * Called when a track is changed

@@ -28,9 +28,8 @@ package me.lucko.luckperms.common.node;
 import me.lucko.luckperms.api.LocalizedNode;
 import me.lucko.luckperms.api.Node;
 
-import java.util.Objects;
-
 import javax.annotation.Nonnull;
+import java.util.Objects;
 
 /**
  * Holds a Node and where it was inherited from. All calls are passed onto the contained Node instance.

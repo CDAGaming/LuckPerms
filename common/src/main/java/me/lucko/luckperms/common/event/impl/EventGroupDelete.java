@@ -30,9 +30,8 @@ import me.lucko.luckperms.api.event.cause.DeletionCause;
 import me.lucko.luckperms.api.event.group.GroupDeleteEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
-import java.util.Set;
-
 import javax.annotation.Nonnull;
+import java.util.Set;
 
 public class EventGroupDelete extends AbstractEvent implements GroupDeleteEvent {
 

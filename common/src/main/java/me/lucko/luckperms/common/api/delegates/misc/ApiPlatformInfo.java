@@ -29,11 +29,10 @@ import me.lucko.luckperms.api.platform.PlatformInfo;
 import me.lucko.luckperms.api.platform.PlatformType;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 
+import javax.annotation.Nonnull;
 import java.util.Collections;
 import java.util.Set;
 import java.util.UUID;
-
-import javax.annotation.Nonnull;
 
 public class ApiPlatformInfo implements PlatformInfo {
     private final LuckPermsPlugin plugin;

@@ -27,7 +27,6 @@ package me.lucko.luckperms.common.commands.impl.misc;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.caching.MetaContexts;
 import me.lucko.luckperms.api.context.ContextCalculator;
@@ -53,18 +52,13 @@ import me.lucko.luckperms.common.utils.gson.JArray;
 import me.lucko.luckperms.common.utils.gson.JObject;
 import me.lucko.luckperms.common.utils.web.Pastebin;
 import me.lucko.luckperms.common.utils.web.StandardPastebin;
-
 import net.kyori.text.Component;
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.ClickEvent;
 import net.kyori.text.event.HoverEvent;
 import net.kyori.text.format.TextColor;
 
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.stream.Collectors;
 

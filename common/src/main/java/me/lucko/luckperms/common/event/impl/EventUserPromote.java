@@ -32,9 +32,8 @@ import me.lucko.luckperms.api.event.user.track.TrackAction;
 import me.lucko.luckperms.api.event.user.track.UserPromoteEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
-import java.util.Optional;
-
 import javax.annotation.Nonnull;
+import java.util.Optional;
 
 public class EventUserPromote extends AbstractEvent implements UserPromoteEvent {
 

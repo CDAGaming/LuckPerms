@@ -26,23 +26,15 @@
 package me.lucko.luckperms.bukkit;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-
 import me.lucko.luckperms.common.plugin.SchedulerAdapter;
 import me.lucko.luckperms.common.plugin.SchedulerTask;
 import me.lucko.luckperms.common.utils.SafeIteration;
-
 import org.bukkit.scheduler.BukkitScheduler;
 import org.bukkit.scheduler.BukkitTask;
 
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.SynchronousQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
 import javax.annotation.Nonnull;
+import java.util.Set;
+import java.util.concurrent.*;
 
 public class BukkitSchedulerAdapter implements SchedulerAdapter {
     private final LPBukkitPlugin plugin;

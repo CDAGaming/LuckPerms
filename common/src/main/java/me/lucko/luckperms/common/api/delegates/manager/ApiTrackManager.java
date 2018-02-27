@@ -34,12 +34,11 @@ import me.lucko.luckperms.common.model.Track;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.ImmutableCollectors;
 
+import javax.annotation.Nonnull;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
-
-import javax.annotation.Nonnull;
 
 public class ApiTrackManager extends ApiAbstractManager<Track, me.lucko.luckperms.api.Track, TrackManager<?>> implements me.lucko.luckperms.api.manager.TrackManager {
     public ApiTrackManager(LuckPermsPlugin plugin, TrackManager<?> handle) {

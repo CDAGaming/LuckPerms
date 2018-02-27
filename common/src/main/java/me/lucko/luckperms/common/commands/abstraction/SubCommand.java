@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.abstraction;
 
 import com.google.common.base.Splitter;
-
 import me.lucko.luckperms.common.commands.Arg;
 import me.lucko.luckperms.common.commands.CommandPermission;
 import me.lucko.luckperms.common.commands.sender.Sender;
@@ -42,12 +41,7 @@ import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.treeview.PermissionVault;
 import me.lucko.luckperms.common.treeview.TreeNode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 

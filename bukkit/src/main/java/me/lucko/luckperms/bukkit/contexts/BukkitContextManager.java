@@ -30,7 +30,6 @@ import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.bukkit.LPBukkitPlugin;
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.contexts.AbstractContextManager;
-
 import org.bukkit.entity.Player;
 
 public class BukkitContextManager extends AbstractContextManager<Player> {

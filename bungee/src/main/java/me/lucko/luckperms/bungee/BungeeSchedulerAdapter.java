@@ -28,7 +28,6 @@ package me.lucko.luckperms.bungee;
 import me.lucko.luckperms.common.plugin.SchedulerAdapter;
 import me.lucko.luckperms.common.plugin.SchedulerTask;
 import me.lucko.luckperms.common.utils.SafeIteration;
-
 import net.md_5.bungee.api.scheduler.ScheduledTask;
 import net.md_5.bungee.api.scheduler.TaskScheduler;
 

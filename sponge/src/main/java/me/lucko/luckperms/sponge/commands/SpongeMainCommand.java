@@ -27,7 +27,6 @@ package me.lucko.luckperms.sponge.commands;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
-
 import me.lucko.luckperms.common.commands.CommandException;
 import me.lucko.luckperms.common.commands.CommandManager;
 import me.lucko.luckperms.common.commands.CommandResult;
@@ -46,14 +45,9 @@ import me.lucko.luckperms.sponge.service.model.LPSubject;
 import me.lucko.luckperms.sponge.service.model.LPSubjectCollection;
 import me.lucko.luckperms.sponge.service.model.LPSubjectData;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collectors;
-
 import javax.annotation.Nonnull;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class SpongeMainCommand extends Command<Void, LPSubjectData> {
     private final LPSpongePlugin plugin;

@@ -29,15 +29,14 @@ import me.lucko.luckperms.api.manager.GroupManager;
 import me.lucko.luckperms.api.manager.TrackManager;
 import me.lucko.luckperms.api.manager.UserManager;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.function.Consumer;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 /**
  * A means of loading and saving permission data to/from the backend.

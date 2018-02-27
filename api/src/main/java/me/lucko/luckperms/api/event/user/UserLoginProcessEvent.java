@@ -28,9 +28,8 @@ package me.lucko.luckperms.api.event.user;
 import me.lucko.luckperms.api.User;
 import me.lucko.luckperms.api.event.LuckPermsEvent;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 /**
  * Called when LuckPerms has finished processing a certain Player's connection.

@@ -26,11 +26,9 @@
 package me.lucko.luckperms.sponge;
 
 import com.google.common.base.Splitter;
-
 import me.lucko.luckperms.common.config.adapter.AbstractConfigurationAdapter;
 import me.lucko.luckperms.common.config.adapter.ConfigurationAdapter;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
-
 import ninja.leaping.configurate.ConfigurationNode;
 import ninja.leaping.configurate.SimpleConfigurationNode;
 import ninja.leaping.configurate.commented.CommentedConfigurationNode;

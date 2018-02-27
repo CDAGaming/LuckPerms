@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.event;
 
 import com.google.common.collect.ImmutableSet;
-
 import me.lucko.luckperms.api.event.Cancellable;
 import me.lucko.luckperms.api.event.EventBus;
 import me.lucko.luckperms.api.event.EventHandler;
@@ -34,13 +33,12 @@ import me.lucko.luckperms.api.event.LuckPermsEvent;
 import me.lucko.luckperms.common.api.LuckPermsApiProvider;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 
+import javax.annotation.Nonnull;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Consumer;
-
-import javax.annotation.Nonnull;
 
 public class LuckPermsEventBus implements EventBus {
 

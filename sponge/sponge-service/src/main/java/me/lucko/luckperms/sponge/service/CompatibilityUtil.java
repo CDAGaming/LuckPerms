@@ -28,13 +28,11 @@ package me.lucko.luckperms.sponge.service;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
 import com.google.common.collect.ImmutableSet;
-
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.api.context.ContextSet;
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.sponge.service.context.DelegatingContextSet;
 import me.lucko.luckperms.sponge.service.context.DelegatingImmutableContextSet;
-
 import org.spongepowered.api.service.context.Context;
 
 import java.util.Objects;

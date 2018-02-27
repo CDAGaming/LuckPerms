@@ -27,9 +27,8 @@ package me.lucko.luckperms.api;
 
 import me.lucko.luckperms.api.caching.GroupData;
 
-import java.util.OptionalInt;
-
 import javax.annotation.Nonnull;
+import java.util.OptionalInt;
 
 /**
  * An inheritable holder of permission data.

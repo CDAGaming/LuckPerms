@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.primarygroup;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.inheritance.InheritanceGraph;

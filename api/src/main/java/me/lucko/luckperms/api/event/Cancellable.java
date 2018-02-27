@@ -25,9 +25,8 @@
 
 package me.lucko.luckperms.api.event;
 
-import java.util.concurrent.atomic.AtomicBoolean;
-
 import javax.annotation.Nonnull;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * Represents an event that can be cancelled

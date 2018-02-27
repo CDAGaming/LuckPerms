@@ -26,11 +26,9 @@
 package me.lucko.luckperms.common.commands.sender;
 
 import com.google.common.base.Splitter;
-
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.TextUtils;
-
 import net.kyori.text.Component;
 
 import java.lang.ref.WeakReference;

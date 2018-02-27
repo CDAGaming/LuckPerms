@@ -30,11 +30,7 @@ import me.lucko.luckperms.common.commands.CommandManager;
 
 import java.io.File;
 import java.util.Date;
-import java.util.logging.FileHandler;
-import java.util.logging.Formatter;
-import java.util.logging.Level;
-import java.util.logging.LogRecord;
-import java.util.logging.Logger;
+import java.util.logging.*;
 
 public class FileActionLogger {
     private static final String LOG_FORMAT = "%s(%s): [%s] %s(%s) --> %s";

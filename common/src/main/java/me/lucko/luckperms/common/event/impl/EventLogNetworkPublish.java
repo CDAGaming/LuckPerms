@@ -29,10 +29,9 @@ import me.lucko.luckperms.api.LogEntry;
 import me.lucko.luckperms.api.event.log.LogNetworkPublishEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
+import javax.annotation.Nonnull;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-import javax.annotation.Nonnull;
 
 public class EventLogNetworkPublish extends AbstractEvent implements LogNetworkPublishEvent {
 

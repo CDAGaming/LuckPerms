@@ -29,9 +29,8 @@ import me.lucko.luckperms.api.Track;
 import me.lucko.luckperms.api.event.track.mutate.TrackAddGroupEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
-import java.util.List;
-
 import javax.annotation.Nonnull;
+import java.util.List;
 
 public class EventTrackAddGroup extends AbstractEvent implements TrackAddGroupEvent {
 

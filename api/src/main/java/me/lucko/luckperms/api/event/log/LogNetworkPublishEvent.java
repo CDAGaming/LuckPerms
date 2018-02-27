@@ -29,9 +29,8 @@ import me.lucko.luckperms.api.LogEntry;
 import me.lucko.luckperms.api.event.Cancellable;
 import me.lucko.luckperms.api.event.LuckPermsEvent;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 /**
  * Called when a log is about to be published to the network via the MessagingService

@@ -27,10 +27,8 @@ package me.lucko.luckperms.bungee;
 
 import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;
-
 import me.lucko.luckperms.common.commands.CommandManager;
 import me.lucko.luckperms.common.commands.sender.Sender;
-
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.TabExecutor;

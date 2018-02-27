@@ -28,14 +28,12 @@ package me.lucko.luckperms.sponge.contexts;
 import me.lucko.luckperms.api.context.MutableContextSet;
 import me.lucko.luckperms.common.contexts.ProxiedContextCalculator;
 import me.lucko.luckperms.sponge.service.context.DelegatingMutableContextSet;
-
 import org.spongepowered.api.service.context.Context;
 import org.spongepowered.api.service.context.ContextCalculator;
 import org.spongepowered.api.service.permission.Subject;
 
-import java.util.Set;
-
 import javax.annotation.Nonnull;
+import java.util.Set;
 
 public class SpongeProxiedContextCalculator implements ProxiedContextCalculator<Subject> {
     private final ContextCalculator<Subject> delegate;

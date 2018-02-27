@@ -30,7 +30,6 @@ import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.bungee.LPBungeePlugin;
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.contexts.AbstractContextManager;
-
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 
 public class BungeeContextManager extends AbstractContextManager<ProxiedPlayer> {

@@ -25,21 +25,19 @@
 
 package me.lucko.luckperms.bukkit.messaging;
 
-import me.lucko.luckperms.api.messenger.IncomingMessageConsumer;
-import me.lucko.luckperms.api.messenger.Messenger;
-import me.lucko.luckperms.api.messenger.message.OutgoingMessage;
-import me.lucko.luckperms.bukkit.LPBukkitPlugin;
-
 import lilypad.client.connect.api.Connect;
 import lilypad.client.connect.api.event.EventListener;
 import lilypad.client.connect.api.event.MessageEvent;
 import lilypad.client.connect.api.request.RequestException;
 import lilypad.client.connect.api.request.impl.MessageRequest;
-
-import java.io.UnsupportedEncodingException;
-import java.util.Collections;
+import me.lucko.luckperms.api.messenger.IncomingMessageConsumer;
+import me.lucko.luckperms.api.messenger.Messenger;
+import me.lucko.luckperms.api.messenger.message.OutgoingMessage;
+import me.lucko.luckperms.bukkit.LPBukkitPlugin;
 
 import javax.annotation.Nonnull;
+import java.io.UnsupportedEncodingException;
+import java.util.Collections;
 
 /**
  * An implementation of {@link Messenger} using LilyPad.

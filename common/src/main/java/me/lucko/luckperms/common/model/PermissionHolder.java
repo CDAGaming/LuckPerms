@@ -25,19 +25,8 @@
 
 package me.lucko.luckperms.common.model;
 
-import com.google.common.collect.ImmutableCollection;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSetMultimap;
-import com.google.common.collect.Maps;
-import com.google.common.collect.Multimap;
-
-import me.lucko.luckperms.api.Contexts;
-import me.lucko.luckperms.api.DataMutateResult;
-import me.lucko.luckperms.api.LocalizedNode;
-import me.lucko.luckperms.api.Node;
-import me.lucko.luckperms.api.NodeEqualityPredicate;
-import me.lucko.luckperms.api.StandardNodeEquality;
-import me.lucko.luckperms.api.Tristate;
+import com.google.common.collect.*;
+import me.lucko.luckperms.api.*;
 import me.lucko.luckperms.api.context.ContextSet;
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.common.buffers.BufferedRequest;
@@ -48,29 +37,14 @@ import me.lucko.luckperms.common.caching.type.MetaAccumulator;
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.inheritance.InheritanceComparator;
 import me.lucko.luckperms.common.inheritance.InheritanceGraph;
-import me.lucko.luckperms.common.node.ImmutableLocalizedNode;
-import me.lucko.luckperms.common.node.InheritanceInfo;
-import me.lucko.luckperms.common.node.MetaType;
+import me.lucko.luckperms.common.node.*;
 import me.lucko.luckperms.common.node.NodeFactory;
-import me.lucko.luckperms.common.node.NodeTools;
-import me.lucko.luckperms.common.node.NodeWithContextComparator;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.references.GroupReference;
 import me.lucko.luckperms.common.references.HolderReference;
 import me.lucko.luckperms.common.references.HolderType;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.OptionalInt;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

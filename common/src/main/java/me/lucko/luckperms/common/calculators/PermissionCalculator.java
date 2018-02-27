@@ -29,16 +29,14 @@ import com.github.benmanes.caffeine.cache.CacheLoader;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.processors.PermissionProcessor;
 import me.lucko.luckperms.common.verbose.CheckOrigin;
 
+import javax.annotation.Nonnull;
 import java.util.List;
 import java.util.Map;
-
-import javax.annotation.Nonnull;
 
 /**
  * Calculates and caches permissions

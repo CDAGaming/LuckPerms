@@ -26,14 +26,12 @@
 package me.lucko.luckperms.api.caching;
 
 import com.google.common.collect.ListMultimap;
-
 import me.lucko.luckperms.api.metastacking.MetaStackDefinition;
-
-import java.util.Map;
-import java.util.SortedMap;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+import java.util.Map;
+import java.util.SortedMap;
 
 /**
  * Holds cached meta lookup data for a specific set of contexts.

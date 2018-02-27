@@ -37,13 +37,12 @@ import me.lucko.luckperms.api.messenger.MessengerProvider;
 import me.lucko.luckperms.api.metastacking.MetaStackFactory;
 import me.lucko.luckperms.api.platform.PlatformInfo;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.Optional;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 /**
  * The LuckPerms API.

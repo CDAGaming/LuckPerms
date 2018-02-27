@@ -27,7 +27,6 @@ package me.lucko.luckperms.common.storage;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Maps;
-
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.storage.dao.AbstractDao;

@@ -25,17 +25,15 @@
 
 package me.lucko.luckperms.nukkit;
 
+import cn.nukkit.Player;
+import cn.nukkit.command.CommandSender;
+import cn.nukkit.command.ConsoleCommandSender;
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.common.commands.CommandManager;
 import me.lucko.luckperms.common.commands.sender.SenderFactory;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.TextUtils;
-
 import net.kyori.text.Component;
-
-import cn.nukkit.Player;
-import cn.nukkit.command.CommandSender;
-import cn.nukkit.command.ConsoleCommandSender;
 
 import java.util.UUID;
 

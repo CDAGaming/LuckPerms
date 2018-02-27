@@ -33,13 +33,12 @@ import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.references.UserIdentifier;
 import me.lucko.luckperms.common.utils.ImmutableCollectors;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.Objects;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 public class ApiUserManager extends ApiAbstractManager<User, me.lucko.luckperms.api.User, UserManager<?>> implements me.lucko.luckperms.api.manager.UserManager {
     public ApiUserManager(LuckPermsPlugin plugin, UserManager<?> handle) {

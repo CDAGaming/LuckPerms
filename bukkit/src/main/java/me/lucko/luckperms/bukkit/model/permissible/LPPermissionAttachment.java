@@ -26,25 +26,18 @@
 package me.lucko.luckperms.bukkit.model.permissible;
 
 import com.google.common.base.Preconditions;
-
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.bukkit.model.dummy.DummyPlugin;
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.model.User;
 import me.lucko.luckperms.common.node.ImmutableTransientNode;
 import me.lucko.luckperms.common.node.NodeFactory;
-
 import org.bukkit.permissions.PermissionAttachment;
 import org.bukkit.permissions.PermissionRemovedExecutor;
 import org.bukkit.plugin.Plugin;
 
 import java.lang.reflect.Field;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 /**
  * PermissionAttachment for LuckPerms.

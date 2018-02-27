@@ -29,9 +29,8 @@ import me.lucko.luckperms.api.User;
 import me.lucko.luckperms.api.event.user.UserLoginProcessEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 public class EventUserLoginProcess extends AbstractEvent implements UserLoginProcessEvent {
 

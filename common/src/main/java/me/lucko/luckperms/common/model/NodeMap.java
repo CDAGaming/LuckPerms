@@ -29,7 +29,6 @@ import com.google.common.collect.ImmutableSetMultimap;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.MultimapBuilder;
 import com.google.common.collect.SortedSetMultimap;
-
 import me.lucko.luckperms.api.LocalizedNode;
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.api.StandardNodeEquality;
@@ -41,19 +40,10 @@ import me.lucko.luckperms.common.node.ImmutableLocalizedNode;
 import me.lucko.luckperms.common.node.NodeComparator;
 import me.lucko.luckperms.common.node.NodeWithContextComparator;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import javax.annotation.Nullable;
+import java.util.*;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Predicate;
-
-import javax.annotation.Nullable;
 
 /**
  * A map of nodes held by a {@link PermissionHolder}.

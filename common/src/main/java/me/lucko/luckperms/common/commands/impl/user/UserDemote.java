@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.user;
 
 import com.google.common.collect.Iterables;
-
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.api.context.MutableContextSet;
 import me.lucko.luckperms.common.actionlog.ExtendedLogEntry;

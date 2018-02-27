@@ -26,7 +26,6 @@
 package me.lucko.luckperms.bukkit.migration;
 
 import com.google.common.base.Strings;
-
 import me.lucko.luckperms.api.event.cause.CreationCause;
 import me.lucko.luckperms.common.commands.CommandPermission;
 import me.lucko.luckperms.common.commands.CommandResult;
@@ -44,25 +43,14 @@ import me.lucko.luckperms.common.node.NodeFactory;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.Predicates;
 import me.lucko.luckperms.common.utils.SafeIteration;
-
 import org.bukkit.Bukkit;
-
-import ru.tehkode.permissions.PermissionEntity;
-import ru.tehkode.permissions.PermissionGroup;
-import ru.tehkode.permissions.PermissionManager;
-import ru.tehkode.permissions.PermissionUser;
-import ru.tehkode.permissions.PermissionsData;
+import ru.tehkode.permissions.*;
 import ru.tehkode.permissions.bukkit.PermissionsEx;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 

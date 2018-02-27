@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.model;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.DataMutateResult;
 import me.lucko.luckperms.common.api.delegates.model.ApiTrack;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;

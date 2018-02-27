@@ -28,12 +28,11 @@ package me.lucko.luckperms.api.context;
 import com.google.common.collect.ImmutableSetMultimap;
 import com.google.common.collect.Multimap;
 
+import javax.annotation.Nonnull;
+import javax.annotation.concurrent.Immutable;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
-
-import javax.annotation.Nonnull;
-import javax.annotation.concurrent.Immutable;
 
 /**
  * An immutable implementation of {@link ContextSet}.

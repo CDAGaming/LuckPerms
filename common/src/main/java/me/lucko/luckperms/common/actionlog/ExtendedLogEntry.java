@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.actionlog;
 
 import com.google.common.base.Strings;
-
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.LogEntry;
 import me.lucko.luckperms.api.context.ContextSet;
@@ -38,16 +37,9 @@ import me.lucko.luckperms.common.model.User;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.DateUtil;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.UUID;
-import java.util.stream.Collectors;
-
 import javax.annotation.Nonnull;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * An implementation of {@link LogEntry} and {@link LogEntry.Builder},

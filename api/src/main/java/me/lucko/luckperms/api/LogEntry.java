@@ -25,12 +25,11 @@
 
 package me.lucko.luckperms.api;
 
-import java.util.Optional;
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.concurrent.Immutable;
+import java.util.Optional;
+import java.util.UUID;
 
 /**
  * Represents a logged action.

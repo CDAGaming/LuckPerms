@@ -28,17 +28,15 @@ package me.lucko.luckperms.common.config;
 import com.github.benmanes.caffeine.cache.CacheLoader;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
-
 import me.lucko.luckperms.common.api.delegates.misc.ApiConfiguration;
 import me.lucko.luckperms.common.config.adapter.ConfigurationAdapter;
 import me.lucko.luckperms.common.config.keys.EnduringKey;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 
+import javax.annotation.Nonnull;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
-
-import javax.annotation.Nonnull;
 
 /**
  * An abstract implementation of {@link LuckPermsConfiguration}, backed by a cache.

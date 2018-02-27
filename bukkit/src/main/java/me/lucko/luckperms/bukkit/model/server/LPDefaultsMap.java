@@ -25,26 +25,15 @@
 
 package me.lucko.luckperms.bukkit.model.server;
 
-import com.google.common.collect.ForwardingSet;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Maps;
-
+import com.google.common.collect.*;
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.bukkit.LPBukkitPlugin;
-
 import org.bukkit.permissions.Permission;
 import org.bukkit.plugin.PluginManager;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-
 import javax.annotation.Nonnull;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * A replacement map for the 'defaultPerms' instance in Bukkit's SimplePluginManager.

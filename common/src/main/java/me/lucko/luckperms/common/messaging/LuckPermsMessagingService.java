@@ -42,13 +42,8 @@ import me.lucko.luckperms.common.messaging.message.UserUpdateMessageImpl;
 import me.lucko.luckperms.common.model.User;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.*;
 
 public class LuckPermsMessagingService implements InternalMessagingService, IncomingMessageConsumer {
     private final LuckPermsPlugin plugin;

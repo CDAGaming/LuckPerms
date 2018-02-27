@@ -32,9 +32,8 @@ import me.lucko.luckperms.api.event.user.track.TrackAction;
 import me.lucko.luckperms.api.event.user.track.UserDemoteEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
-import java.util.Optional;
-
 import javax.annotation.Nonnull;
+import java.util.Optional;
 
 public class EventUserDemote extends AbstractEvent implements UserDemoteEvent {
 

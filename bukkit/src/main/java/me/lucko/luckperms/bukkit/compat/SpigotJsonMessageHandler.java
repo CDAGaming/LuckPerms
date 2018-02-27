@@ -26,7 +26,6 @@
 package me.lucko.luckperms.bukkit.compat;
 
 import net.md_5.bungee.chat.ComponentSerializer;
-
 import org.bukkit.entity.Player;
 
 public class SpigotJsonMessageHandler {

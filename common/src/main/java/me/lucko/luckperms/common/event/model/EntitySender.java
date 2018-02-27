@@ -28,10 +28,9 @@ package me.lucko.luckperms.common.event.model;
 import me.lucko.luckperms.api.Entity;
 import me.lucko.luckperms.common.commands.sender.Sender;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+import java.util.UUID;
 
 public class EntitySender implements Entity {
     private final Sender sender;

@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.locale;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.common.commands.Arg;
 
 import java.util.ArrayList;

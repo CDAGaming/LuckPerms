@@ -28,7 +28,6 @@ package me.lucko.luckperms.sponge;
 import me.lucko.luckperms.common.plugin.SchedulerAdapter;
 import me.lucko.luckperms.common.plugin.SchedulerTask;
 import me.lucko.luckperms.common.utils.SafeIteration;
-
 import org.spongepowered.api.scheduler.Scheduler;
 import org.spongepowered.api.scheduler.Task;
 

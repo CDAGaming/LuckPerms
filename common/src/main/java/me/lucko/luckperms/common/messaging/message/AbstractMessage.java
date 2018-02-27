@@ -28,9 +28,8 @@ package me.lucko.luckperms.common.messaging.message;
 import me.lucko.luckperms.api.messenger.message.Message;
 import me.lucko.luckperms.api.messenger.message.OutgoingMessage;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 public abstract class AbstractMessage implements Message, OutgoingMessage {
     private final UUID id;

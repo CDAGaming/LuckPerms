@@ -29,9 +29,8 @@ import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.api.PermissionHolder;
 import me.lucko.luckperms.api.event.LuckPermsEvent;
 
-import java.util.Set;
-
 import javax.annotation.Nonnull;
+import java.util.Set;
 
 /**
  * Called when a node is added to/removed from a user/group

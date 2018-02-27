@@ -25,9 +25,8 @@
 
 package me.lucko.luckperms.api.event;
 
-import java.util.function.Consumer;
-
 import javax.annotation.Nonnull;
+import java.util.function.Consumer;
 
 /**
  * Represents a handler for a LuckPerms event

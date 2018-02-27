@@ -31,9 +31,8 @@ import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.common.api.delegates.model.ApiGroup;
 import me.lucko.luckperms.common.node.NodeFactory;
 
-import java.util.Objects;
-
 import javax.annotation.Nonnull;
+import java.util.Objects;
 
 public final class ApiNodeFactory implements me.lucko.luckperms.api.NodeFactory {
     public static final ApiNodeFactory INSTANCE = new ApiNodeFactory();

@@ -27,11 +27,10 @@ package me.lucko.luckperms.api;
 
 import me.lucko.luckperms.api.context.ContextSet;
 
-import java.util.Optional;
-import java.util.OptionalLong;
-
 import javax.annotation.Nonnull;
 import javax.annotation.concurrent.Immutable;
+import java.util.Optional;
+import java.util.OptionalLong;
 
 /**
  * A relationship between a {@link PermissionHolder} and a permission.

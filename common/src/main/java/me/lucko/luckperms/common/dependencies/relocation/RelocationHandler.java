@@ -32,11 +32,7 @@ import me.lucko.luckperms.common.dependencies.classloader.IsolatedClassLoader;
 import java.io.File;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
-import java.util.EnumSet;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Handles class runtime relocation of packages in downloaded dependencies

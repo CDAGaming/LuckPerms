@@ -30,7 +30,6 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.common.commands.sender.Sender;
 import me.lucko.luckperms.common.contexts.ContextSetJsonSerializer;
@@ -45,7 +44,6 @@ import me.lucko.luckperms.common.utils.gson.JArray;
 import me.lucko.luckperms.common.utils.gson.JObject;
 import me.lucko.luckperms.common.utils.web.HttpClient;
 import me.lucko.luckperms.common.utils.web.StandardPastebin;
-
 import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.ResponseBody;

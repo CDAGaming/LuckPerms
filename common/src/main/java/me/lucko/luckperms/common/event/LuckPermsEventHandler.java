@@ -28,11 +28,10 @@ package me.lucko.luckperms.common.event;
 import me.lucko.luckperms.api.event.EventHandler;
 import me.lucko.luckperms.api.event.LuckPermsEvent;
 
+import javax.annotation.Nonnull;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
-
-import javax.annotation.Nonnull;
 
 public class LuckPermsEventHandler<T extends LuckPermsEvent> implements EventHandler<T> {
     private final LuckPermsEventBus eventBus;

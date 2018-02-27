@@ -25,12 +25,11 @@
 
 package me.lucko.luckperms.common.utils;
 
+import javax.annotation.Nullable;
 import java.util.Optional;
 import java.util.UUID;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
-
-import javax.annotation.Nullable;
 
 /**
  * Utilities for working with {@link UUID}s.

@@ -27,7 +27,6 @@ package me.lucko.luckperms.bukkit.model.permissible;
 
 import me.lucko.luckperms.bukkit.compat.ReflectionUtil;
 import me.lucko.luckperms.bukkit.model.dummy.DummyPermissibleBase;
-
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.PermissibleBase;
 import org.bukkit.permissions.PermissionAttachment;

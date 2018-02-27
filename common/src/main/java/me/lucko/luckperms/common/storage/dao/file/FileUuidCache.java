@@ -27,9 +27,9 @@ package me.lucko.luckperms.common.storage.dao.file;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Maps;
-
 import me.lucko.luckperms.common.utils.DateUtil;
 
+import javax.annotation.Nullable;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -40,8 +40,6 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
-
-import javax.annotation.Nullable;
 
 public class FileUuidCache {
     private static final Splitter KV_SPLIT = Splitter.on('=').omitEmptyStrings();

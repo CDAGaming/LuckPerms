@@ -26,7 +26,6 @@
 package me.lucko.luckperms.bukkit.calculators;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.bukkit.LPBukkitPlugin;
 import me.lucko.luckperms.bukkit.processors.ChildProcessor;

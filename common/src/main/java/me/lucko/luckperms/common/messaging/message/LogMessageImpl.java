@@ -29,16 +29,14 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
-
 import me.lucko.luckperms.api.LogEntry;
 import me.lucko.luckperms.api.messenger.message.type.LogMessage;
 import me.lucko.luckperms.common.actionlog.ExtendedLogEntry;
 
+import javax.annotation.Nonnull;
 import java.nio.ByteBuffer;
 import java.util.Base64;
 import java.util.UUID;
-
-import javax.annotation.Nonnull;
 
 public class LogMessageImpl extends AbstractMessage implements LogMessage {
     private static final Gson GSON = new GsonBuilder().disableHtmlEscaping().create();

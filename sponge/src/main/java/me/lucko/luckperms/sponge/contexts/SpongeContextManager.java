@@ -30,7 +30,6 @@ import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.contexts.AbstractContextManager;
 import me.lucko.luckperms.sponge.LPSpongePlugin;
-
 import org.spongepowered.api.service.permission.Subject;
 
 public class SpongeContextManager extends AbstractContextManager<Subject> {

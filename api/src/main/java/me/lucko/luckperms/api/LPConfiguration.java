@@ -25,9 +25,8 @@
 
 package me.lucko.luckperms.api;
 
-import java.util.Map;
-
 import javax.annotation.Nonnull;
+import java.util.Map;
 
 /**
  * Wrapper around parts of the LuckPerms configuration file

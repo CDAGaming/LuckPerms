@@ -25,25 +25,22 @@
 
 package me.lucko.luckperms.nukkit.model.server;
 
+import cn.nukkit.permission.Permission;
+import cn.nukkit.plugin.PluginManager;
 import com.github.benmanes.caffeine.cache.CacheLoader;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
 import com.google.common.collect.ForwardingMap;
 import com.google.common.collect.ImmutableMap;
-
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.treeview.PermissionVault;
 
-import cn.nukkit.permission.Permission;
-import cn.nukkit.plugin.PluginManager;
-
+import javax.annotation.CheckForNull;
+import javax.annotation.Nonnull;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-
-import javax.annotation.CheckForNull;
-import javax.annotation.Nonnull;
 
 /**
  * A replacement map for the 'permissions' instance in Nukkit's SimplePluginManager.

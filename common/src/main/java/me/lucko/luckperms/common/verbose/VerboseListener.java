@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.verbose;
 
 import com.google.gson.JsonObject;
-
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.common.commands.CommandManager;
 import me.lucko.luckperms.common.commands.sender.Sender;
@@ -38,7 +37,6 @@ import me.lucko.luckperms.common.utils.TextUtils;
 import me.lucko.luckperms.common.utils.gson.JArray;
 import me.lucko.luckperms.common.utils.gson.JObject;
 import me.lucko.luckperms.common.utils.web.StandardPastebin;
-
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.HoverEvent;
 

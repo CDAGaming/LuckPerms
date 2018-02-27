@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.config.keys;
 
 import com.google.common.collect.ImmutableMap;
-
 import me.lucko.luckperms.common.config.ConfigKey;
 import me.lucko.luckperms.common.config.adapter.ConfigurationAdapter;
 

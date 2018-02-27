@@ -56,11 +56,7 @@ import me.lucko.luckperms.common.verbose.VerboseHandler;
 
 import java.io.File;
 import java.io.InputStream;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
 import java.util.stream.Stream;
 
 /**

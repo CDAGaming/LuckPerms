@@ -29,10 +29,9 @@ import me.lucko.luckperms.api.HeldPermission;
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.api.context.ContextSet;
 
+import javax.annotation.Nonnull;
 import java.util.Optional;
 import java.util.OptionalLong;
-
-import javax.annotation.Nonnull;
 
 public final class NodeHeldPermission<T> implements HeldPermission<T> {
     public static <T> NodeHeldPermission<T> of(T holder, NodeModel nodeModel) {

@@ -35,12 +35,11 @@ import me.lucko.luckperms.common.node.NodeFactory;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.ImmutableCollectors;
 
+import javax.annotation.Nonnull;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
-
-import javax.annotation.Nonnull;
 
 public class ApiGroupManager extends ApiAbstractManager<Group, me.lucko.luckperms.api.Group, GroupManager<?>> implements me.lucko.luckperms.api.manager.GroupManager {
     public ApiGroupManager(LuckPermsPlugin plugin, GroupManager<?> handle) {

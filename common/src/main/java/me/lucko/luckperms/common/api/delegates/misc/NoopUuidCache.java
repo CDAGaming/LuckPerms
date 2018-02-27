@@ -27,9 +27,8 @@ package me.lucko.luckperms.common.api.delegates.misc;
 
 import me.lucko.luckperms.api.UuidCache;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 @Deprecated
 @SuppressWarnings({"DeprecatedIsStillUsed", "deprecation"})

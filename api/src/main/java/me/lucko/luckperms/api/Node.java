@@ -27,16 +27,11 @@ package me.lucko.luckperms.api;
 
 import me.lucko.luckperms.api.context.ContextSet;
 
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Set;
-import java.util.stream.Stream;
-
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.concurrent.Immutable;
+import java.util.*;
+import java.util.stream.Stream;
 
 /**
  * Represents a LuckPerms "node".

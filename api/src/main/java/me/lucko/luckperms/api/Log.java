@@ -25,12 +25,11 @@
 
 package me.lucko.luckperms.api;
 
+import javax.annotation.Nonnull;
+import javax.annotation.concurrent.Immutable;
 import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.UUID;
-
-import javax.annotation.Nonnull;
-import javax.annotation.concurrent.Immutable;
 
 /**
  * Represents the internal LuckPerms log.

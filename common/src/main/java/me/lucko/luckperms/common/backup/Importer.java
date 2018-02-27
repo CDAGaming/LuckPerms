@@ -27,7 +27,6 @@ package me.lucko.luckperms.common.backup;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.ImmutableSet;
-
 import me.lucko.luckperms.common.commands.CommandManager;
 import me.lucko.luckperms.common.commands.CommandResult;
 import me.lucko.luckperms.common.commands.sender.DummySender;

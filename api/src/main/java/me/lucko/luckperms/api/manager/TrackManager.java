@@ -28,12 +28,11 @@ package me.lucko.luckperms.api.manager;
 import me.lucko.luckperms.api.Storage;
 import me.lucko.luckperms.api.Track;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 /**
  * Represents the object responsible for managing {@link Track} instances.

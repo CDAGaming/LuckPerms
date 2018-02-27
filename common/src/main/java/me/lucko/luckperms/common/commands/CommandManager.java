@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.common.commands.abstraction.Command;
 import me.lucko.luckperms.common.commands.impl.group.CreateGroup;
 import me.lucko.luckperms.common.commands.impl.group.DeleteGroup;
@@ -34,20 +33,7 @@ import me.lucko.luckperms.common.commands.impl.group.GroupMainCommand;
 import me.lucko.luckperms.common.commands.impl.group.ListGroups;
 import me.lucko.luckperms.common.commands.impl.log.LogMainCommand;
 import me.lucko.luckperms.common.commands.impl.migration.MigrationMainCommand;
-import me.lucko.luckperms.common.commands.impl.misc.ApplyEditsCommand;
-import me.lucko.luckperms.common.commands.impl.misc.BulkUpdateCommand;
-import me.lucko.luckperms.common.commands.impl.misc.CheckCommand;
-import me.lucko.luckperms.common.commands.impl.misc.DebugCommand;
-import me.lucko.luckperms.common.commands.impl.misc.EditorCommand;
-import me.lucko.luckperms.common.commands.impl.misc.ExportCommand;
-import me.lucko.luckperms.common.commands.impl.misc.ImportCommand;
-import me.lucko.luckperms.common.commands.impl.misc.InfoCommand;
-import me.lucko.luckperms.common.commands.impl.misc.NetworkSyncCommand;
-import me.lucko.luckperms.common.commands.impl.misc.ReloadConfigCommand;
-import me.lucko.luckperms.common.commands.impl.misc.SearchCommand;
-import me.lucko.luckperms.common.commands.impl.misc.SyncCommand;
-import me.lucko.luckperms.common.commands.impl.misc.TreeCommand;
-import me.lucko.luckperms.common.commands.impl.misc.VerboseCommand;
+import me.lucko.luckperms.common.commands.impl.misc.*;
 import me.lucko.luckperms.common.commands.impl.track.CreateTrack;
 import me.lucko.luckperms.common.commands.impl.track.DeleteTrack;
 import me.lucko.luckperms.common.commands.impl.track.ListTracks;
@@ -60,17 +46,11 @@ import me.lucko.luckperms.common.locale.LocaleManager;
 import me.lucko.luckperms.common.locale.Message;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.TextUtils;
-
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.ClickEvent;
 import net.kyori.text.event.HoverEvent;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Optional;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;

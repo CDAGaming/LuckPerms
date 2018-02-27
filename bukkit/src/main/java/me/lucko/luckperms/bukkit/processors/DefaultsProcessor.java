@@ -28,7 +28,6 @@ package me.lucko.luckperms.bukkit.processors;
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.bukkit.LPBukkitPlugin;
 import me.lucko.luckperms.common.processors.PermissionProcessor;
-
 import org.bukkit.permissions.Permission;
 
 /**

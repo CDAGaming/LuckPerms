@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.dependencies;
 
 import com.google.common.io.ByteStreams;
-
 import me.lucko.luckperms.common.dependencies.relocation.Relocation;
 import me.lucko.luckperms.common.dependencies.relocation.RelocationHelper;
 

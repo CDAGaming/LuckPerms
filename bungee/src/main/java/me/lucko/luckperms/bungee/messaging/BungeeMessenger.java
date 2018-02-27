@@ -28,12 +28,10 @@ package me.lucko.luckperms.bungee.messaging;
 import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
-
 import me.lucko.luckperms.api.messenger.IncomingMessageConsumer;
 import me.lucko.luckperms.api.messenger.Messenger;
 import me.lucko.luckperms.api.messenger.message.OutgoingMessage;
 import me.lucko.luckperms.bungee.LPBungeePlugin;
-
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.event.PluginMessageEvent;

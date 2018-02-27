@@ -27,10 +27,9 @@ package me.lucko.luckperms.api;
 
 import me.lucko.luckperms.api.caching.UserData;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+import java.util.UUID;
 
 /**
  * A player which holds permission data.

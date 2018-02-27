@@ -25,10 +25,6 @@
 
 package me.lucko.luckperms.nukkit.listeners;
 
-import me.lucko.luckperms.common.config.ConfigKeys;
-import me.lucko.luckperms.common.locale.Message;
-import me.lucko.luckperms.nukkit.LPNukkitPlugin;
-
 import cn.nukkit.Player;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.event.Cancellable;
@@ -39,6 +35,9 @@ import cn.nukkit.event.entity.EntityLevelChangeEvent;
 import cn.nukkit.event.player.PlayerCommandPreprocessEvent;
 import cn.nukkit.event.server.RemoteServerCommandEvent;
 import cn.nukkit.event.server.ServerCommandEvent;
+import me.lucko.luckperms.common.config.ConfigKeys;
+import me.lucko.luckperms.common.locale.Message;
+import me.lucko.luckperms.nukkit.LPNukkitPlugin;
 
 public class NukkitPlatformListener implements Listener {
     private final LPNukkitPlugin plugin;

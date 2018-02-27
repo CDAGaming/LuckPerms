@@ -25,10 +25,9 @@
 
 package me.lucko.luckperms.api;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+import java.util.UUID;
 
 /**
  * Represents an entity on the server.

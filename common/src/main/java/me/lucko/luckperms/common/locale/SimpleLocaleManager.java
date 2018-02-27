@@ -26,9 +26,7 @@
 package me.lucko.luckperms.common.locale;
 
 import com.google.common.collect.ImmutableMap;
-
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
-
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.BufferedReader;

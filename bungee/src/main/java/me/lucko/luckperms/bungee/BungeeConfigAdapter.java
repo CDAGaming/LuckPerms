@@ -28,18 +28,13 @@ package me.lucko.luckperms.bungee;
 import me.lucko.luckperms.common.config.adapter.AbstractConfigurationAdapter;
 import me.lucko.luckperms.common.config.adapter.ConfigurationAdapter;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
-
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 public class BungeeConfigAdapter extends AbstractConfigurationAdapter implements ConfigurationAdapter {
 

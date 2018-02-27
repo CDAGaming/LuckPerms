@@ -27,12 +27,11 @@ package me.lucko.luckperms.api.context;
 
 import com.google.common.collect.Multimap;
 
+import javax.annotation.Nonnull;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
-
-import javax.annotation.Nonnull;
 
 /**
  * A set of contexts.

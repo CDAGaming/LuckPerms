@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.abstraction;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.common.commands.Arg;
 import me.lucko.luckperms.common.commands.CommandException;
 import me.lucko.luckperms.common.commands.CommandPermission;
@@ -36,13 +35,12 @@ import me.lucko.luckperms.common.locale.LocalizedSpec;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.Predicates;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 /**
  * An abstract command class

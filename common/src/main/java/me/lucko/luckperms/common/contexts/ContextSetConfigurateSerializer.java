@@ -26,10 +26,8 @@
 package me.lucko.luckperms.common.contexts;
 
 import com.google.common.base.Preconditions;
-
 import me.lucko.luckperms.api.context.ContextSet;
 import me.lucko.luckperms.api.context.MutableContextSet;
-
 import ninja.leaping.configurate.ConfigurationNode;
 import ninja.leaping.configurate.SimpleConfigurationNode;
 

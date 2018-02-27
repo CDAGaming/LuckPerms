@@ -25,14 +25,6 @@
 
 package me.lucko.luckperms.nukkit.listeners;
 
-import me.lucko.luckperms.common.config.ConfigKeys;
-import me.lucko.luckperms.common.locale.Message;
-import me.lucko.luckperms.common.model.User;
-import me.lucko.luckperms.common.utils.AbstractLoginListener;
-import me.lucko.luckperms.nukkit.LPNukkitPlugin;
-import me.lucko.luckperms.nukkit.model.permissible.LPPermissible;
-import me.lucko.luckperms.nukkit.model.permissible.PermissibleInjector;
-
 import cn.nukkit.Player;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.EventPriority;
@@ -40,6 +32,13 @@ import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerAsyncPreLoginEvent;
 import cn.nukkit.event.player.PlayerLoginEvent;
 import cn.nukkit.event.player.PlayerQuitEvent;
+import me.lucko.luckperms.common.config.ConfigKeys;
+import me.lucko.luckperms.common.locale.Message;
+import me.lucko.luckperms.common.model.User;
+import me.lucko.luckperms.common.utils.AbstractLoginListener;
+import me.lucko.luckperms.nukkit.LPNukkitPlugin;
+import me.lucko.luckperms.nukkit.model.permissible.LPPermissible;
+import me.lucko.luckperms.nukkit.model.permissible.PermissibleInjector;
 
 import java.util.Collections;
 import java.util.HashSet;

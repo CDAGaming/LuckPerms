@@ -25,10 +25,9 @@
 
 package me.lucko.luckperms.api.event;
 
+import javax.annotation.Nonnull;
 import java.util.Set;
 import java.util.function.Consumer;
-
-import javax.annotation.Nonnull;
 
 /**
  * The internal LuckPerms event bus.

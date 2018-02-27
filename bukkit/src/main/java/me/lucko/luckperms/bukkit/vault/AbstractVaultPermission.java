@@ -26,7 +26,6 @@
 package me.lucko.luckperms.bukkit.vault;
 
 import net.milkbowl.vault.permission.Permission;
-
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.World;

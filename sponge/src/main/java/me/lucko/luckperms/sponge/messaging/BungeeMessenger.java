@@ -26,12 +26,10 @@
 package me.lucko.luckperms.sponge.messaging;
 
 import com.google.common.collect.Iterables;
-
 import me.lucko.luckperms.api.messenger.IncomingMessageConsumer;
 import me.lucko.luckperms.api.messenger.Messenger;
 import me.lucko.luckperms.api.messenger.message.OutgoingMessage;
 import me.lucko.luckperms.sponge.LPSpongePlugin;
-
 import org.spongepowered.api.Platform;
 import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.network.ChannelBinding;
@@ -39,10 +37,9 @@ import org.spongepowered.api.network.ChannelBuf;
 import org.spongepowered.api.network.RawDataListener;
 import org.spongepowered.api.network.RemoteConnection;
 
+import javax.annotation.Nonnull;
 import java.util.Collection;
 import java.util.concurrent.TimeUnit;
-
-import javax.annotation.Nonnull;
 
 /**
  * An implementation of {@link Messenger} using the plugin messaging channels.

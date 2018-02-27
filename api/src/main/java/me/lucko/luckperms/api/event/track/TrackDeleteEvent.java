@@ -28,9 +28,8 @@ package me.lucko.luckperms.api.event.track;
 import me.lucko.luckperms.api.event.LuckPermsEvent;
 import me.lucko.luckperms.api.event.cause.DeletionCause;
 
-import java.util.List;
-
 import javax.annotation.Nonnull;
+import java.util.List;
 
 /**
  * Called when a track is deleted

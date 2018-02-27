@@ -25,18 +25,17 @@
 
 package me.lucko.luckperms.nukkit.model.permissible;
 
+import cn.nukkit.permission.PermissibleBase;
+import cn.nukkit.permission.Permission;
+import cn.nukkit.permission.PermissionAttachment;
+import cn.nukkit.permission.PermissionAttachmentInfo;
+import cn.nukkit.plugin.Plugin;
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.api.context.ContextSet;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.verbose.CheckOrigin;
 import me.lucko.luckperms.common.verbose.VerboseHandler;
 import me.lucko.luckperms.nukkit.model.dummy.DummyPermissibleBase;
-
-import cn.nukkit.permission.PermissibleBase;
-import cn.nukkit.permission.Permission;
-import cn.nukkit.permission.PermissionAttachment;
-import cn.nukkit.permission.PermissionAttachmentInfo;
-import cn.nukkit.plugin.Plugin;
 
 import java.util.Map;
 

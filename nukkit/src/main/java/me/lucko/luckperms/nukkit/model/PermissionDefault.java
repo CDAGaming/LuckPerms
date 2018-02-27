@@ -27,10 +27,9 @@ package me.lucko.luckperms.nukkit.model;
 
 import cn.nukkit.permission.Permission;
 
+import javax.annotation.Nullable;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.annotation.Nullable;
 
 /**
  * Represents the possible default values for permissions

@@ -25,6 +25,14 @@
 
 package me.lucko.luckperms.nukkit;
 
+import cn.nukkit.Player;
+import cn.nukkit.command.PluginCommand;
+import cn.nukkit.event.HandlerList;
+import cn.nukkit.permission.Permission;
+import cn.nukkit.plugin.PluginBase;
+import cn.nukkit.plugin.PluginManager;
+import cn.nukkit.plugin.service.ServicePriority;
+import cn.nukkit.utils.Config;
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.LuckPermsApi;
 import me.lucko.luckperms.api.platform.PlatformType;
@@ -78,21 +86,7 @@ import me.lucko.luckperms.nukkit.model.PermissionDefault;
 import me.lucko.luckperms.nukkit.model.permissible.LPPermissible;
 import me.lucko.luckperms.nukkit.model.permissible.PermissibleInjector;
 import me.lucko.luckperms.nukkit.model.permissible.PermissibleMonitoringInjector;
-import me.lucko.luckperms.nukkit.model.server.InjectorDefaultsMap;
-import me.lucko.luckperms.nukkit.model.server.InjectorPermissionMap;
-import me.lucko.luckperms.nukkit.model.server.InjectorSubscriptionMap;
-import me.lucko.luckperms.nukkit.model.server.LPDefaultsMap;
-import me.lucko.luckperms.nukkit.model.server.LPPermissionMap;
-import me.lucko.luckperms.nukkit.model.server.LPSubscriptionMap;
-
-import cn.nukkit.Player;
-import cn.nukkit.command.PluginCommand;
-import cn.nukkit.event.HandlerList;
-import cn.nukkit.permission.Permission;
-import cn.nukkit.plugin.PluginBase;
-import cn.nukkit.plugin.PluginManager;
-import cn.nukkit.plugin.service.ServicePriority;
-import cn.nukkit.utils.Config;
+import me.lucko.luckperms.nukkit.model.server.*;
 
 import java.io.File;
 import java.io.InputStream;

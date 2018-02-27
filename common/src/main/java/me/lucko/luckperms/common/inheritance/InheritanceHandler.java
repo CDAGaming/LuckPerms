@@ -27,7 +27,6 @@ package me.lucko.luckperms.common.inheritance;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
-
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 

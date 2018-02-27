@@ -29,9 +29,8 @@ import me.lucko.luckperms.api.LogEntry;
 import me.lucko.luckperms.api.event.log.LogReceiveEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 public class EventLogReceive extends AbstractEvent implements LogReceiveEvent {
 

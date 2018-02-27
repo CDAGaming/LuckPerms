@@ -28,10 +28,9 @@ package me.lucko.luckperms.api;
 import me.lucko.luckperms.api.context.ContextSet;
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 
-import java.util.Objects;
-
 import javax.annotation.Nonnull;
 import javax.annotation.concurrent.Immutable;
+import java.util.Objects;
 
 /**
  * Encapsulates the options and settings for a permission or meta lookup.

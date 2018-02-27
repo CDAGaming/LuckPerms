@@ -31,9 +31,8 @@ import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.config.LuckPermsConfiguration;
 import me.lucko.luckperms.common.utils.ImmutableCollectors;
 
-import java.util.Map;
-
 import javax.annotation.Nonnull;
+import java.util.Map;
 
 public class ApiConfiguration implements LPConfiguration {
     private final LuckPermsConfiguration handle;

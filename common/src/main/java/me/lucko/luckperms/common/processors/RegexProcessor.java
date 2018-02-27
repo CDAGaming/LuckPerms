@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.processors;
 
 import com.google.common.collect.ImmutableMap;
-
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.common.utils.PatternCache;
 

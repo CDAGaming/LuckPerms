@@ -27,9 +27,8 @@ package me.lucko.luckperms.api.messenger.message.type;
 
 import me.lucko.luckperms.api.messenger.message.Message;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 /**
  * Represents an "user update" message.

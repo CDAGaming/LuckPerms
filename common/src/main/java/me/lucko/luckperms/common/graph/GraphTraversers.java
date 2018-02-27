@@ -43,13 +43,7 @@ package me.lucko.luckperms.common.graph;
 
 import com.google.common.collect.AbstractIterator;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Objects;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 
 /**
  * A collection of graph traversal algorithms.

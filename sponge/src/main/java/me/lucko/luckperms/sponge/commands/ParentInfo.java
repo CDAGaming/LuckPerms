@@ -26,7 +26,6 @@
 package me.lucko.luckperms.sponge.commands;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.common.commands.CommandPermission;
 import me.lucko.luckperms.common.commands.CommandResult;

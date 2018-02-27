@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.misc;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.common.commands.CommandPermission;
 import me.lucko.luckperms.common.commands.CommandResult;
 import me.lucko.luckperms.common.commands.abstraction.SingleCommand;
@@ -40,7 +39,6 @@ import me.lucko.luckperms.common.utils.Predicates;
 import me.lucko.luckperms.common.verbose.InvalidFilterException;
 import me.lucko.luckperms.common.verbose.VerboseFilter;
 import me.lucko.luckperms.common.verbose.VerboseListener;
-
 import net.kyori.text.Component;
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.ClickEvent;

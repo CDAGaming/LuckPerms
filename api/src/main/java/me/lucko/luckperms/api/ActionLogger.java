@@ -25,9 +25,8 @@
 
 package me.lucko.luckperms.api;
 
-import java.util.concurrent.CompletableFuture;
-
 import javax.annotation.Nonnull;
+import java.util.concurrent.CompletableFuture;
 
 /**
  * Represents the object responsible for handling action logging.

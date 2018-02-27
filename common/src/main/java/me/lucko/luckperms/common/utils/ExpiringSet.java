@@ -29,11 +29,10 @@ import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
 import com.google.common.collect.ForwardingSet;
 
+import javax.annotation.Nonnull;
 import java.util.Collection;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
-import javax.annotation.Nonnull;
 
 /**
  * A bad expiring set implementation using Caffeine caches

@@ -25,24 +25,16 @@
 
 package me.lucko.luckperms.nukkit;
 
+import cn.nukkit.scheduler.ServerScheduler;
+import cn.nukkit.scheduler.TaskHandler;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-
 import me.lucko.luckperms.common.plugin.SchedulerAdapter;
 import me.lucko.luckperms.common.plugin.SchedulerTask;
 import me.lucko.luckperms.common.utils.SafeIteration;
 
-import cn.nukkit.scheduler.ServerScheduler;
-import cn.nukkit.scheduler.TaskHandler;
-
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.SynchronousQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
 import javax.annotation.Nonnull;
+import java.util.Set;
+import java.util.concurrent.*;
 
 public class NukkitSchedulerAdapter implements SchedulerAdapter {
     private final LPNukkitPlugin plugin;

@@ -32,9 +32,8 @@ import me.lucko.luckperms.api.User;
 import me.lucko.luckperms.api.event.node.NodeRemoveEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
-import java.util.Set;
-
 import javax.annotation.Nonnull;
+import java.util.Set;
 
 public class EventNodeRemove extends AbstractEvent implements NodeRemoveEvent {
 

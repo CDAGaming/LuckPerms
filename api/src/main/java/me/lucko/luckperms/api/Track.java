@@ -25,10 +25,9 @@
 
 package me.lucko.luckperms.api;
 
-import java.util.List;
-
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+import java.util.List;
 
 /**
  * An ordered chain of {@link Group}s.

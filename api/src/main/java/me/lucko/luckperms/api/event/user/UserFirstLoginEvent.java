@@ -27,9 +27,8 @@ package me.lucko.luckperms.api.event.user;
 
 import me.lucko.luckperms.api.event.LuckPermsEvent;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 /**
  * Called when the user logs into the network for the first time.

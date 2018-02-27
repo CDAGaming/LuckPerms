@@ -31,7 +31,6 @@ import me.lucko.luckperms.bukkit.model.dummy.DummyPermissibleBase;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.verbose.CheckOrigin;
 import me.lucko.luckperms.common.verbose.VerboseHandler;
-
 import org.bukkit.permissions.PermissibleBase;
 import org.bukkit.permissions.Permission;
 import org.bukkit.permissions.PermissionAttachment;

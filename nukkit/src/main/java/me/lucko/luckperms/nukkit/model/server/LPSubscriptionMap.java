@@ -25,20 +25,12 @@
 
 package me.lucko.luckperms.nukkit.model.server;
 
-import com.google.common.collect.Sets;
-
-import me.lucko.luckperms.nukkit.LPNukkitPlugin;
-
 import cn.nukkit.permission.Permissible;
 import cn.nukkit.plugin.PluginManager;
+import com.google.common.collect.Sets;
+import me.lucko.luckperms.nukkit.LPNukkitPlugin;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.WeakHashMap;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**

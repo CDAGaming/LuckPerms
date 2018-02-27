@@ -27,7 +27,6 @@ package me.lucko.luckperms.common.caching.handlers;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
-
 import me.lucko.luckperms.common.references.HolderReference;
 
 import java.util.HashSet;

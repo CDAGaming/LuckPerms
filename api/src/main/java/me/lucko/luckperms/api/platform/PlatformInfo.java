@@ -25,10 +25,9 @@
 
 package me.lucko.luckperms.api.platform;
 
+import javax.annotation.Nonnull;
 import java.util.Set;
 import java.util.UUID;
-
-import javax.annotation.Nonnull;
 
 /**
  * Provides information about the platform LuckPerms is running on.

@@ -39,7 +39,6 @@ import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.treeview.TreeView;
 import me.lucko.luckperms.common.utils.Predicates;
 import me.lucko.luckperms.common.utils.Uuids;
-
 import net.kyori.text.Component;
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.ClickEvent;

@@ -29,7 +29,6 @@ import me.lucko.luckperms.api.messenger.IncomingMessageConsumer;
 import me.lucko.luckperms.api.messenger.Messenger;
 import me.lucko.luckperms.api.messenger.message.OutgoingMessage;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
-
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;

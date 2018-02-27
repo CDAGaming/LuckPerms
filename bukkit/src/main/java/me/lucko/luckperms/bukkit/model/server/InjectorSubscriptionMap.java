@@ -26,7 +26,6 @@
 package me.lucko.luckperms.bukkit.model.server;
 
 import me.lucko.luckperms.bukkit.LPBukkitPlugin;
-
 import org.bukkit.Bukkit;
 import org.bukkit.permissions.Permissible;
 import org.bukkit.plugin.PluginManager;

@@ -25,10 +25,9 @@
 
 package me.lucko.luckperms.api.metastacking;
 
+import javax.annotation.Nonnull;
 import java.util.List;
 import java.util.Optional;
-
-import javax.annotation.Nonnull;
 
 /**
  * Factory to create meta stack elements and definitions.

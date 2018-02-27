@@ -26,16 +26,14 @@
 package me.lucko.luckperms.common.api.delegates.model;
 
 import com.google.common.base.Preconditions;
-
 import me.lucko.luckperms.api.DataMutateResult;
 import me.lucko.luckperms.api.caching.UserData;
 import me.lucko.luckperms.common.model.User;
 import me.lucko.luckperms.common.node.NodeFactory;
 
+import javax.annotation.Nonnull;
 import java.util.Objects;
 import java.util.UUID;
-
-import javax.annotation.Nonnull;
 
 public final class ApiUser extends ApiPermissionHolder implements me.lucko.luckperms.api.User {
     public static User cast(me.lucko.luckperms.api.User u) {

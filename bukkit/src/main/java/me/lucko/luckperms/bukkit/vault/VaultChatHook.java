@@ -26,7 +26,6 @@
 package me.lucko.luckperms.bukkit.vault;
 
 import com.google.common.base.Strings;
-
 import me.lucko.luckperms.api.ChatMetaType;
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.Node;
@@ -40,7 +39,6 @@ import me.lucko.luckperms.common.model.Group;
 import me.lucko.luckperms.common.model.PermissionHolder;
 import me.lucko.luckperms.common.model.User;
 import me.lucko.luckperms.common.node.NodeFactory;
-
 import net.milkbowl.vault.chat.Chat;
 
 import java.util.Objects;

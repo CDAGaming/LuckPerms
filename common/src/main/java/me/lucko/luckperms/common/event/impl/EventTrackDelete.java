@@ -29,9 +29,8 @@ import me.lucko.luckperms.api.event.cause.DeletionCause;
 import me.lucko.luckperms.api.event.track.TrackDeleteEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
-import java.util.List;
-
 import javax.annotation.Nonnull;
+import java.util.List;
 
 public class EventTrackDelete extends AbstractEvent implements TrackDeleteEvent {
 

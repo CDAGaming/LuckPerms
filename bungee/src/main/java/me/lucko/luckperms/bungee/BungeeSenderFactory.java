@@ -31,7 +31,6 @@ import me.lucko.luckperms.common.commands.CommandManager;
 import me.lucko.luckperms.common.commands.sender.SenderFactory;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.TextUtils;
-
 import net.kyori.text.Component;
 import net.kyori.text.serializer.ComponentSerializers;
 import net.md_5.bungee.api.CommandSender;

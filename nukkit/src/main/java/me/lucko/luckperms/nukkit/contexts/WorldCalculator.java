@@ -25,13 +25,12 @@
 
 package me.lucko.luckperms.nukkit.contexts;
 
+import cn.nukkit.Player;
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.context.ContextCalculator;
 import me.lucko.luckperms.api.context.MutableContextSet;
 import me.lucko.luckperms.common.config.ConfigKeys;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
-
-import cn.nukkit.Player;
 
 import javax.annotation.Nonnull;
 

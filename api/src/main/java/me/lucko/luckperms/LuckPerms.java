@@ -27,9 +27,8 @@ package me.lucko.luckperms;
 
 import me.lucko.luckperms.api.LuckPermsApi;
 
-import java.util.Optional;
-
 import javax.annotation.Nonnull;
+import java.util.Optional;
 
 /**
  * Provides static access to the {@link LuckPermsApi}.

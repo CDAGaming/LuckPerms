@@ -27,11 +27,10 @@ package me.lucko.luckperms.common.messaging.message;
 
 import me.lucko.luckperms.api.messenger.message.type.UpdateMessage;
 
+import javax.annotation.Nonnull;
 import java.nio.ByteBuffer;
 import java.util.Base64;
 import java.util.UUID;
-
-import javax.annotation.Nonnull;
 
 public class UpdateMessageImpl extends AbstractMessage implements UpdateMessage {
     private static final String UPDATE_HEADER = "update:";

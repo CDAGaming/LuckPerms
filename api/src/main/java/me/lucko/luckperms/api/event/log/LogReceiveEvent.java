@@ -28,9 +28,8 @@ package me.lucko.luckperms.api.event.log;
 import me.lucko.luckperms.api.LogEntry;
 import me.lucko.luckperms.api.event.LuckPermsEvent;
 
-import java.util.UUID;
-
 import javax.annotation.Nonnull;
+import java.util.UUID;
 
 /**
  * Called when a log entry is received via the MessagingService

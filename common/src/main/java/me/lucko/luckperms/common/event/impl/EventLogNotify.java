@@ -32,9 +32,8 @@ import me.lucko.luckperms.common.commands.sender.Sender;
 import me.lucko.luckperms.common.event.AbstractEvent;
 import me.lucko.luckperms.common.event.model.EntitySender;
 
-import java.util.concurrent.atomic.AtomicBoolean;
-
 import javax.annotation.Nonnull;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class EventLogNotify extends AbstractEvent implements LogNotifyEvent {
 

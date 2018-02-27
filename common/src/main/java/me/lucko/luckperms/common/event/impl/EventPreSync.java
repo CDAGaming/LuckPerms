@@ -28,9 +28,8 @@ package me.lucko.luckperms.common.event.impl;
 import me.lucko.luckperms.api.event.sync.PreSyncEvent;
 import me.lucko.luckperms.common.event.AbstractEvent;
 
-import java.util.concurrent.atomic.AtomicBoolean;
-
 import javax.annotation.Nonnull;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class EventPreSync extends AbstractEvent implements PreSyncEvent {
 

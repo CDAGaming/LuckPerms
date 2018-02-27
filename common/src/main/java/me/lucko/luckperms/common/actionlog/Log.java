@@ -26,15 +26,9 @@
 package me.lucko.luckperms.common.actionlog;
 
 import com.google.common.collect.ImmutableSortedSet;
-
 import me.lucko.luckperms.api.LogEntry;
 
-import java.util.Set;
-import java.util.SortedMap;
-import java.util.SortedSet;
-import java.util.TreeMap;
-import java.util.TreeSet;
-import java.util.UUID;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Log {

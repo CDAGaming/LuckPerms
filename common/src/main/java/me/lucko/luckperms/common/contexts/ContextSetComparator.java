@@ -28,11 +28,7 @@ package me.lucko.luckperms.common.contexts;
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ContextSetComparator implements Comparator<ImmutableContextSet> {
 

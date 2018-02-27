@@ -30,12 +30,11 @@ import me.lucko.luckperms.api.StandardNodeEquality;
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.api.context.ContextSet;
 
+import javax.annotation.Nonnull;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-
-import javax.annotation.Nonnull;
 
 public abstract class ForwardingNode implements Node {
 

@@ -34,10 +34,9 @@ import me.lucko.luckperms.common.api.delegates.model.ApiUser;
 import me.lucko.luckperms.common.contexts.ContextManager;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 
+import javax.annotation.Nonnull;
 import java.util.Objects;
 import java.util.Optional;
-
-import javax.annotation.Nonnull;
 
 @SuppressWarnings("unchecked")
 public class ApiContextManager implements me.lucko.luckperms.api.context.ContextManager {

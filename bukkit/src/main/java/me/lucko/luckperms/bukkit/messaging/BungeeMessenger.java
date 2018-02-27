@@ -29,19 +29,16 @@ import com.google.common.collect.Iterables;
 import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
-
 import me.lucko.luckperms.api.messenger.IncomingMessageConsumer;
 import me.lucko.luckperms.api.messenger.Messenger;
 import me.lucko.luckperms.api.messenger.message.OutgoingMessage;
 import me.lucko.luckperms.bukkit.LPBukkitPlugin;
-
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.messaging.PluginMessageListener;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import java.util.Collection;
-
 import javax.annotation.Nonnull;
+import java.util.Collection;
 
 /**
  * An implementation of {@link Messenger} using the plugin messaging channels.

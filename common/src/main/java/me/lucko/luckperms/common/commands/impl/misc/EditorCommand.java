@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.misc;
 
 import com.google.gson.JsonObject;
-
 import me.lucko.luckperms.common.commands.ArgumentPermissions;
 import me.lucko.luckperms.common.commands.CommandPermission;
 import me.lucko.luckperms.common.commands.CommandResult;
@@ -42,7 +41,6 @@ import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.Predicates;
 import me.lucko.luckperms.common.utils.web.StandardPastebin;
 import me.lucko.luckperms.common.webeditor.WebEditor;
-
 import net.kyori.text.Component;
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.ClickEvent;

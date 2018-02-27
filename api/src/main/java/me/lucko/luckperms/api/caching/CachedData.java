@@ -28,10 +28,9 @@ package me.lucko.luckperms.api.caching;
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.PermissionHolder;
 
+import javax.annotation.Nonnull;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
-
-import javax.annotation.Nonnull;
 
 /**
  * Holds cached permission and meta lookup data for a {@link PermissionHolder}.

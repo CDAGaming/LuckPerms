@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.storage.dao.file;
 
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
-
 import ninja.leaping.configurate.ConfigurationNode;
 import ninja.leaping.configurate.hocon.HoconConfigurationLoader;
 import ninja.leaping.configurate.loader.ConfigurationLoader;

@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.user;
 
 import com.google.common.collect.ListMultimap;
-
 import me.lucko.luckperms.api.Contexts;
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.api.caching.MetaData;

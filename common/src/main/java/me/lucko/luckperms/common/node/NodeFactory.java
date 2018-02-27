@@ -27,7 +27,6 @@ package me.lucko.luckperms.common.node;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Maps;
-
 import me.lucko.luckperms.api.ChatMetaType;
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.api.context.ContextSet;

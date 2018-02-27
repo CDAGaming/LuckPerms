@@ -29,7 +29,6 @@ import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.common.commands.CommandManager;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.TextUtils;
-
 import net.kyori.text.Component;
 
 import java.util.UUID;

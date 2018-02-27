@@ -27,10 +27,8 @@ package me.lucko.luckperms.bukkit;
 
 import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;
-
 import me.lucko.luckperms.common.commands.CommandManager;
 import me.lucko.luckperms.common.commands.sender.Sender;
-
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
