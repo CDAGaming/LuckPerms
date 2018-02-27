@@ -188,9 +188,7 @@ public class LuckPermsService implements LPPermissionService {
             LPPermissionDescription desc = new LuckPermsPermissionDescription(this, knownPermission, null, null);
 
             // don't override plugin defined values
-            if (!descriptions.contains(desc)) {
-                descriptions.add(desc);
-            }
+            descriptions.add(desc);
         }
 
         return ImmutableSet.copyOf(descriptions);

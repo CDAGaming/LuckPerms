@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.migration;
 
 import com.google.common.collect.ImmutableBiMap;
-
 import me.lucko.luckperms.common.commands.CommandPermission;
 import me.lucko.luckperms.common.commands.CommandResult;
 import me.lucko.luckperms.common.commands.abstraction.Command;
@@ -38,14 +37,9 @@ import me.lucko.luckperms.common.locale.LocaleManager;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.Predicates;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.concurrent.locks.ReentrantLock;
-
 import javax.annotation.Nonnull;
+import java.util.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class MigrationMainCommand extends MainCommand<Object, Object> {
     private static final Map<String, String> PLUGINS = ImmutableBiMap.<String, String>builder()

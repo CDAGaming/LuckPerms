@@ -26,31 +26,20 @@
 package me.lucko.luckperms.sponge.service.proxy.api7;
 
 import com.google.common.collect.ImmutableSet;
-
 import me.lucko.luckperms.common.utils.ImmutableCollectors;
 import me.lucko.luckperms.sponge.service.model.LPPermissionDescription;
 import me.lucko.luckperms.sponge.service.model.LPPermissionService;
 import me.lucko.luckperms.sponge.service.model.LPSubjectCollection;
 import me.lucko.luckperms.sponge.service.reference.SubjectReferenceFactory;
-
 import org.spongepowered.api.Sponge;
 import org.spongepowered.api.plugin.PluginContainer;
 import org.spongepowered.api.service.context.ContextCalculator;
-import org.spongepowered.api.service.permission.PermissionDescription;
-import org.spongepowered.api.service.permission.PermissionService;
-import org.spongepowered.api.service.permission.Subject;
-import org.spongepowered.api.service.permission.SubjectCollection;
-import org.spongepowered.api.service.permission.SubjectReference;
-
-import java.util.Collection;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
-import java.util.concurrent.CompletableFuture;
-import java.util.function.Predicate;
+import org.spongepowered.api.service.permission.*;
 
 import javax.annotation.Nonnull;
+import java.util.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.function.Predicate;
 
 public final class PermissionServiceProxy implements PermissionService {
     private final LPPermissionService handle;

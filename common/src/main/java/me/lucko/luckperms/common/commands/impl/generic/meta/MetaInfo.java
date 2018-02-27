@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.generic.meta;
 
 import com.google.common.collect.Maps;
-
 import me.lucko.luckperms.api.ChatMetaType;
 import me.lucko.luckperms.api.LocalizedNode;
 import me.lucko.luckperms.common.commands.ArgumentPermissions;
@@ -46,18 +45,12 @@ import me.lucko.luckperms.common.node.NodeFactory;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.Predicates;
 import me.lucko.luckperms.common.utils.TextUtils;
-
 import net.kyori.text.BuildableComponent;
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.ClickEvent;
 import net.kyori.text.event.HoverEvent;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 import java.util.function.Consumer;
 
 public class MetaInfo extends SharedSubCommand {

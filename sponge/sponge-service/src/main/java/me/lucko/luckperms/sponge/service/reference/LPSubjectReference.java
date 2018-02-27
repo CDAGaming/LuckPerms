@@ -26,12 +26,10 @@
 package me.lucko.luckperms.sponge.service.reference;
 
 import me.lucko.luckperms.sponge.service.model.LPSubject;
-
 import org.spongepowered.api.service.permission.SubjectReference;
 
-import java.util.concurrent.CompletableFuture;
-
 import javax.annotation.Nonnull;
+import java.util.concurrent.CompletableFuture;
 
 /**
  * LuckPerms model for the Sponge {@link SubjectReference}

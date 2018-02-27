@@ -32,18 +32,16 @@ import me.lucko.luckperms.sponge.service.model.LPSubject;
 import me.lucko.luckperms.sponge.service.model.LPSubjectData;
 import me.lucko.luckperms.sponge.service.reference.LPSubjectReference;
 import me.lucko.luckperms.sponge.service.reference.SubjectReferenceFactory;
-
 import org.spongepowered.api.service.context.Context;
 import org.spongepowered.api.service.permission.Subject;
 import org.spongepowered.api.service.permission.SubjectData;
 import org.spongepowered.api.util.Tristate;
 
+import javax.annotation.Nonnull;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
-
-import javax.annotation.Nonnull;
 
 @SuppressWarnings("unchecked")
 public final class SubjectDataProxy implements SubjectData {

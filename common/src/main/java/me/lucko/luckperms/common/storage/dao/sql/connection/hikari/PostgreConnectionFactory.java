@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.storage.dao.sql.connection.hikari;
 
 import com.zaxxer.hikari.HikariConfig;
-
 import me.lucko.luckperms.common.storage.StorageCredentials;
 
 public class PostgreConnectionFactory extends HikariConnectionFactory {

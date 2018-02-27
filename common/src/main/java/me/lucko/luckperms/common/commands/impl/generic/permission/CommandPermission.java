@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.generic.permission;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.common.commands.abstraction.SharedMainCommand;
 import me.lucko.luckperms.common.commands.abstraction.SharedSubCommand;
 import me.lucko.luckperms.common.locale.CommandSpec;

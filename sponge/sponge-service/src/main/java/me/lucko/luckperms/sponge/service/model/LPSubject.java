@@ -26,12 +26,10 @@
 package me.lucko.luckperms.sponge.service.model;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.Tristate;
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.sponge.service.reference.LPSubjectReference;
 import me.lucko.luckperms.sponge.service.reference.SubjectReferenceFactory;
-
 import org.spongepowered.api.command.CommandSource;
 import org.spongepowered.api.service.permission.Subject;
 

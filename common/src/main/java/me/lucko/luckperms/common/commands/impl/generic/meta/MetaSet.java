@@ -44,7 +44,6 @@ import me.lucko.luckperms.common.node.NodeFactory;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
 import me.lucko.luckperms.common.utils.Predicates;
 import me.lucko.luckperms.common.utils.TextUtils;
-
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.HoverEvent;
 

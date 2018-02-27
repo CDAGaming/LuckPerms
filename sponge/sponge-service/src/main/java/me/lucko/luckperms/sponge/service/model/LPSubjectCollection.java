@@ -28,10 +28,8 @@ package me.lucko.luckperms.sponge.service.model;
 import com.google.common.collect.ImmutableCollection;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
-
 import me.lucko.luckperms.api.context.ImmutableContextSet;
 import me.lucko.luckperms.sponge.service.reference.LPSubjectReference;
-
 import org.spongepowered.api.service.permission.SubjectCollection;
 
 import java.util.Optional;

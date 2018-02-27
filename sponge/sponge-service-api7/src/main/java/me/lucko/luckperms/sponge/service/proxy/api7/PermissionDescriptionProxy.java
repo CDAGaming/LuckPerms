@@ -28,18 +28,16 @@ package me.lucko.luckperms.sponge.service.proxy.api7;
 import me.lucko.luckperms.common.utils.ImmutableCollectors;
 import me.lucko.luckperms.sponge.service.model.LPPermissionDescription;
 import me.lucko.luckperms.sponge.service.model.LPPermissionService;
-
 import org.spongepowered.api.plugin.PluginContainer;
 import org.spongepowered.api.service.permission.PermissionDescription;
 import org.spongepowered.api.service.permission.Subject;
 import org.spongepowered.api.service.permission.SubjectReference;
 import org.spongepowered.api.text.Text;
 
+import javax.annotation.Nonnull;
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
-
-import javax.annotation.Nonnull;
 
 public final class PermissionDescriptionProxy implements PermissionDescription {
     private final LPPermissionService service;

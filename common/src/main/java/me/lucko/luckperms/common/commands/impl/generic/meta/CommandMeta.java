@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.generic.meta;
 
 import com.google.common.collect.ImmutableList;
-
 import me.lucko.luckperms.api.ChatMetaType;
 import me.lucko.luckperms.common.commands.abstraction.SharedMainCommand;
 import me.lucko.luckperms.common.commands.abstraction.SharedSubCommand;

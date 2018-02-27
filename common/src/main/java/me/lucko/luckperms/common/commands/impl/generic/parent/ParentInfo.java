@@ -48,7 +48,6 @@ import me.lucko.luckperms.common.utils.CollationKeyCache;
 import me.lucko.luckperms.common.utils.DateUtil;
 import me.lucko.luckperms.common.utils.Predicates;
 import me.lucko.luckperms.common.utils.TextUtils;
-
 import net.kyori.text.BuildableComponent;
 import net.kyori.text.TextComponent;
 import net.kyori.text.event.ClickEvent;

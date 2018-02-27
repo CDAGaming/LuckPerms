@@ -27,7 +27,6 @@ package me.lucko.luckperms.common.storage.dao.sql.connection.hikari;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
-
 import me.lucko.luckperms.common.storage.StorageCredentials;
 import me.lucko.luckperms.common.storage.dao.sql.connection.AbstractConnectionFactory;
 

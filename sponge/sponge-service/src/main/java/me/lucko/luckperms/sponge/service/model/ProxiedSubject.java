@@ -26,7 +26,6 @@
 package me.lucko.luckperms.sponge.service.model;
 
 import me.lucko.luckperms.sponge.service.reference.LPSubjectReference;
-
 import org.spongepowered.api.service.permission.Subject;
 
 import javax.annotation.Nonnull;

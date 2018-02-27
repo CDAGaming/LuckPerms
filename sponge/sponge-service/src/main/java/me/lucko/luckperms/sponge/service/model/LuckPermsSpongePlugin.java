@@ -27,7 +27,6 @@ package me.lucko.luckperms.sponge.service.model;
 
 import me.lucko.luckperms.common.contexts.ContextManager;
 import me.lucko.luckperms.common.plugin.LuckPermsPlugin;
-
 import org.spongepowered.api.service.permission.Subject;
 
 public interface LuckPermsSpongePlugin extends LuckPermsPlugin {

@@ -26,14 +26,12 @@
 package me.lucko.luckperms.sponge.service.context;
 
 import me.lucko.luckperms.api.context.MutableContextSet;
-
 import org.spongepowered.api.service.context.Context;
 
+import javax.annotation.Nonnull;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-
-import javax.annotation.Nonnull;
 
 /**
  * Implements a {@link Set} of {@link Context}s, delegating all calls to a {@link MutableContextSet}.

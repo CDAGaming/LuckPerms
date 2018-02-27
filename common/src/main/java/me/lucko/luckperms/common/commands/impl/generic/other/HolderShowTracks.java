@@ -26,7 +26,6 @@
 package me.lucko.luckperms.common.commands.impl.generic.other;
 
 import com.google.common.collect.Maps;
-
 import me.lucko.luckperms.api.Node;
 import me.lucko.luckperms.common.commands.ArgumentPermissions;
 import me.lucko.luckperms.common.commands.CommandPermission;

@@ -27,15 +27,13 @@ package me.lucko.luckperms.sponge.service.reference;
 
 import me.lucko.luckperms.sponge.service.model.LPPermissionService;
 import me.lucko.luckperms.sponge.service.model.LPSubject;
-
 import org.spongepowered.api.service.permission.Subject;
 
+import javax.annotation.Nonnull;
 import java.lang.ref.WeakReference;
 import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
-
-import javax.annotation.Nonnull;
 
 /**
  * Represents a reference to a given Subject.
